@@ -11,6 +11,7 @@ echo 'function justcommit {
     git commit -am "$1"
   fi
 }' >> ~/.bash_profile # or ~/.zshrc
+source ~/.bash_profile # or ~/.zshrc
 ```
 
 ## usage
