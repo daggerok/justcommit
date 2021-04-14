@@ -6,7 +6,7 @@ requires curl
 
 ```bash
 brew reinstall curl
-echo 'function justcommit {
+echo 'function justcommit() {
   if [[ -z "$1" ]] ; then
     joke="$(curl -s http://whatthecommit.com/index.txt)"
     git commit -am "${joke} (C) whatthecommit.com"
