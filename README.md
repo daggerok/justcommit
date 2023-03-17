@@ -8,7 +8,7 @@ requires curl
 brew reinstall curl
 echo 'function justcommit() {
   if [[ -z "$1" ]] ; then
-    joke="$(curl -s http://whatthecommit.com/index.txt)"
+    joke="$(curl -s https://whatthecommit.com/index.txt)"
     git commit -am "${joke} (C) whatthecommit.com"
   else
     git commit -am "$1"
