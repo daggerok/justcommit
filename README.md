@@ -24,3 +24,7 @@ git add .
 justcommit
 git psuh
 ```
+
+## links
+
+* [GitHub ngerakines/commitment](https://github.com/ngerakines/commitment)
